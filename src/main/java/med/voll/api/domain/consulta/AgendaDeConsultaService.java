@@ -1,5 +1,4 @@
 package med.voll.api.domain.consulta;
-
 import jakarta.validation.constraints.Null;
 import med.voll.api.domain.consulta.DatosAgendarConsulta;
 import med.voll.api.domain.medico.Medico;
@@ -11,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
-
 @Service
 public class AgendaDeConsultaService {
 
